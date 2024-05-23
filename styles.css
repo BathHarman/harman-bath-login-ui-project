@@ -1,12 +1,40 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: Indie flower, cursive;
+    background: url('https://t4.ftcdn.net/jpg/04/30/92/23/360_F_430922371_CMgp9Kunbjjo8tXdehNpclx4ga2I3kW6.jpg');
+    background-repeat: repeat; 
+    background-position: center; 
     margin: 0;
     padding: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.container {
+    background: rgba(250, 229, 232, 0.5); 
+    width: 300px; 
+    height: 300px; 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(71, 240, 246, 0.90);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 h1 {
     color: #333;
-    text-align: center;
-    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff00d0; 
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
