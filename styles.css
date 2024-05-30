@@ -13,8 +13,8 @@ body {
 
 .container {
     background: rgba(250, 229, 232, 0.5); 
-    width: 300px; 
-    height: 300px; 
+    min-width: 300px; 
+    min-height: 300px; 
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(71, 240, 246, 0.90);
@@ -25,18 +25,12 @@ body {
     text-align: center;
 }
 
-h1 {
-    color: #333;
-    margin-bottom: 25px;
-}
-
 button {
     padding: 10px;
     background-color: #ff00d0; 
     color: #ffffff;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
 }
 
 button:hover {
